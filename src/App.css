@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  
+  background-color: rgba(128, 128, 128, 0.158);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.appContent{
+  
+  
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  
+}
+.form{
+  display: flex;
+  gap: 5px;
+}
+.form-input{
+  width: 350px;
+}
+.form-add{
+  background-color: #13429a;
+  border: none;
+  color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 3px;
+  
+}
+.tareas-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 10px;
+}
+.form-add:hover{
+  cursor: pointer;
+}

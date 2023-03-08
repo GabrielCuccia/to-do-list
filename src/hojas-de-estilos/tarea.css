@@ -1,0 +1,39 @@
+.tarea-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 55px;
+
+}
+.add{
+    background-color: #366ed6;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 65px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.delete{
+    background-color: #960018;
+    border-radius: 3px;
+    border: none;
+    height: 40px;
+    width: 85px;
+    color: white;
+}
+.add:hover{
+    cursor: pointer;
+}
+.delete:hover{
+    cursor: pointer;
+
+}
+.input{
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+}
